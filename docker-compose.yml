@@ -1,0 +1,26 @@
+version: '3'
+services:
+  user-service:
+    image: "ecovo/ecovo:user-service"
+    env_file:
+      - auth.env
+      - db.env
+      - user-service.env
+  trip-service:
+    image: "ecovo/ecovo:trip-service"
+    env_file:
+      - auth.env
+      - db.env
+      - trip-service.env
+  trip-search-service:
+    image: "ecovo/ecovo:trip-search-service"
+    env_file:
+      - auth.env
+      - db.env
+      - trip-search-service.env
+  gateway-service:
+    image: "ecovo/ecovo:gateway-service"
+    env_file:
+      - gateway-service.env
+    ports:
+      - "8080:8080"
