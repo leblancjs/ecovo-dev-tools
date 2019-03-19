@@ -4,6 +4,9 @@ C'est pas moi qui l'dit!
 
 It's not easy when you want to run all these little micro-services locally. To make things easier, use `dev-tools`. Nothing fancy. Just a `docker-compose` configuration and some other stuff to run it all.
 
+## Prerequisites
+In order for any of this to work, you need to have `Docker` installed, have it running, and be logged in to `Docker Hub` using the Ecovo account credentials which can be found on `Google Drive`.
+
 ## Run
 ### Everything
 Enter the following command in your terminal:
