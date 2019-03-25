@@ -18,6 +18,12 @@ services:
       - auth.env
       - db.env
       - trip-search-service.env
+  reservation-service:
+    image: "ecovo/ecovo:reservation-service"
+    env_file:
+      - auth.env
+      - db.env
+      - reservation-service.env
   gateway-service:
     image: "ecovo/ecovo:gateway-service"
     env_file:

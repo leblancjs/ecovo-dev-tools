@@ -36,6 +36,7 @@ The available services are in the `docker-compose.yml` file, but since you're he
 * user-service
 * trip-service
 * trip-search-service
+* reservation-service
 
 #### A Note On Environment Variables
 In a situation where you want to debug a service, you will need to change the environment files.
