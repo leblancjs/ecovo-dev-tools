@@ -52,7 +52,7 @@ USER_SERVICE_HOST=http://user-service:8080
 to
 
 ```
-USER_SERVICE_HOST=http://host.docker.internal/<PORT>
+USER_SERVICE_HOST=http://host.docker.internal:<PORT>
 ```
 
 where `PORT` is the port on which the service is being run.
